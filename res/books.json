@@ -66,17 +66,6 @@
     "year": 1813
   },
   {
-    "author": "Samuel Beckett",
-    "country": "Republic of Ireland",
-    "genre": "Fiction",
-    "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
-    "language": "French, English",
-    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
-    "pages": 256,
-    "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
-    "year": 1952
-  },
-  {
     "author": "Giovanni Boccaccio",
     "country": "Italy",
     "genre": "Romance",
@@ -208,17 +197,6 @@
     "year": 1861
   },
   {
-    "author": "Denis Diderot",
-    "country": "France",
-    "genre": "Crime Fiction",
-    "imageLink": "images/jacques-the-fatalist.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n",
-    "pages": 596,
-    "title": "Jacques the Fatalist",
-    "year": 1796
-  },
-  {
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
     "genre": "Crime Fiction",
@@ -294,17 +272,6 @@
     "pages": 104,
     "title": "Medea",
     "year": -431
-  },
-  {
-    "author": "William Faulkner",
-    "country": "United States",
-    "genre": "Historical Fiction",
-    "imageLink": "images/absalom-absalom.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
-    "pages": 313,
-    "title": "Absalom, Absalom!",
-    "year": 1936
   },
   {
     "author": "William Faulkner",
@@ -413,7 +380,7 @@
     "language": "Norwegian",
     "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
     "pages": 68,
-    "title": "A Doll's House",
+    "title": "A Doll House",
     "year": 1879
   },
   {
