@@ -1,25 +1,28 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Locale;
+
+import static com.company.Main.bookList;
 
 public class Search {
-    public int binarySearch(ArrayList<String> arr, String x) {
-        int low = 0;
-        int high = arr.size() - 1;
-        while (low <= high) {
-            int mid =  (high + low) / 2;
-            String book = arr.get(mid).replaceAll("\\s+","");
-            int result = x.compareTo(book);
+    public static void main(String[] args) {
+        Search s = new Search();
 
-            // Check if x is present at mid
+    }
+    public int binarySearch(ArrayList<Book> data, String x) {
+        int low = 0;
+        int high = data.size() - 1;
+
+        while (low <= high) {
+            int mid = (high + low) / 2;
+            String book = data.get(mid).getTitle().replaceAll("\\s+", "");
+            int result = x.compareTo(book.toLowerCase());
+
             if (result == 0)
                 return mid;
-
-            // If x greater, ignore left half
             if (result > 0)
                 low = mid + 1;
-
-                // If x is smaller, ignore right half
             else
                 high = mid - 1;
         }
