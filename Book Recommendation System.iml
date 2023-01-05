@@ -20,10 +20,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/json-simple-1.1.1.jar!/" />
+          <root url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0" />
         </CLASSES>
-        <JAVADOC />
-        <SOURCES />
+        <JAVADOC>
+          <root url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0/docs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>

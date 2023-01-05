@@ -4,12 +4,15 @@ package com.company;
 /* ObjectMapper om = new ObjectMapper();
 Root[] root = om.readValue(myJsonString, Root[].class); */
 public class Book{
-    public String author;
-    public String genre;
-    public String language;
-    public int pages;
-    public String title;
-    public int year;
+    private String author;
+    private String country;
+    private String genre;
+    private String imageLink;
+    private String language;
+    private String link;
+    private int pages;
+    private String title;
+    private int year;
 
     public String getAuthor() {
         return author;
@@ -57,6 +60,30 @@ public class Book{
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public String getImageLink() {
+        return imageLink;
+    }
+
+    public void setImageLink(String imageLink) {
+        this.imageLink = imageLink;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
     }
 }
 
