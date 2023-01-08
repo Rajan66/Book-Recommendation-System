@@ -32,5 +32,16 @@
         <jarDirectory url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/java-json.jar/java-json.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/java-json.jar/java-json.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

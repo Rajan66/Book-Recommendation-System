@@ -33,28 +33,6 @@
     "year": 1315
   },
   {
-    "author": "Unknown",
-    "country": "Sumer and Akkadian Empire",
-    "genre": "Epic poetry",
-    "imageLink": "images/the-epic-of-gilgamesh.jpg",
-    "language": "Akkadian",
-    "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
-    "pages": 160,
-    "title": "The Epic Of Gilgamesh",
-    "year": -1700
-  },
-  {
-    "author": "Unknown",
-    "country": "Achaemenid Empire",
-    "genre": "Religious Text",
-    "imageLink": "images/the-book-of-job.jpg",
-    "language": "Hebrew",
-    "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
-    "pages": 176,
-    "title": "The Book Of Job",
-    "year": -600
-  },
-  {
     "author": "Jane Austen",
     "country": "United Kingdom",
     "genre": "Romance",
@@ -416,4 +394,4 @@
     "title": "The Castle",
     "year": 1926
   }
-]
+]{"author":"Collen Hover","country":null,"genre":"Romance, Fiction","imageLink":null,"language":null,"link":null,"pages":376,"title":"It Ends with Us","year":2016}
