@@ -1,397 +1,260 @@
 [
   {
-    "author": "Chinua Achebe",
-    "country": "Nigeria",
-    "genre": "Historical Fiction",
-    "imageLink": "images/things-fall-apart.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
     "pages": 209,
-    "title": "Things Fall Apart",
-    "year": 1958
-  },
-  {
-    "author": "Hans Christian Andersen",
-    "country": "Denmark",
-    "genre": "Folklore",
-    "imageLink": "images/fairy-tales.jpg",
-    "language": "Danish",
-    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
-    "pages": 784,
-    "title": "Fairy tales",
-    "year": 1836
-  },
-  {
-    "author": "Dante Alighieri",
-    "country": "Italy",
-    "genre": "Epic poetry",
-    "imageLink": "images/the-divine-comedy.jpg",
-    "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
-    "pages": 928,
-    "title": "The Divine Comedy",
-    "year": 1315
-  },
-  {
-    "author": "Jane Austen",
-    "country": "United Kingdom",
-    "genre": "Romance",
-    "imageLink": "images/pride-and-prejudice.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
-    "pages": 226,
-    "title": "Pride and Prejudice",
-    "year": 1813
-  },
-  {
-    "author": "Giovanni Boccaccio",
-    "country": "Italy",
-    "genre": "Romance",
-    "imageLink": "images/the-decameron.jpg",
-    "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
-    "pages": 1024,
-    "title": "The Decameron",
-    "year": 1351
-  },
-  {
-    "author": "Jorge Luis Borges",
-    "country": "Argentina",
-    "genre": "Fantasy",
-    "imageLink": "images/ficciones.jpg",
-    "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Ficciones\n",
-    "pages": 224,
-    "title": "Ficciones",
-    "year": 1965
-  },
-  {
-    "author": "Emily Bront",
-    "country": "United Kingdom",
-    "genre": "Romance",
-    "imageLink": "images/wuthering-heights.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
-    "pages": 342,
-    "title": "Wuthering Heights",
-    "year": 1847
-  },
-  {
-    "author": "Albert Camus",
-    "country": "Algeria, French Empire",
-    "genre": "Crime Fiction",
-    "imageLink": "images/l-etranger.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
-    "pages": 185,
-    "title": "The Stranger",
-    "year": 1942
-  },
-  {
-    "author": "Louis-Ferdinand Céline",
-    "country": "France",
-    "genre": "Fiction",
-    "imageLink": "images/voyage-au-bout-de-la-nuit.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
-    "pages": 505,
-    "title": "Journey to the End of the Night",
-    "year": 1932
-  },
-  {
-    "author": "Miguel de Cervantes",
-    "country": "Spain",
-    "genre": "Satire",
-    "imageLink": "images/don-quijote-de-la-mancha.jpg",
-    "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
-    "pages": 1056,
-    "title": "Don Quijote De La Mancha",
-    "year": 1610
-  },
-  {
-    "author": "Geoffrey Chaucer",
-    "country": "England",
-    "genre":" Fiction",
-    "imageLink": "images/the-canterbury-tales.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
-    "pages": 544,
-    "title": "The Canterbury Tales",
-    "year": 1450
-  },
-  {
-    "author": "Joseph Conrad",
-    "country": "United Kingdom",
-    "genre": "Political Fiction",
-    "imageLink": "images/nostromo.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Nostromo\n",
-    "pages": 320,
-    "title": "Nostromo",
-    "year": 1904
-  },
-  {
-    "author": "Charles Dickens",
-    "country": "United Kingdom",
-    "genre": "Gothic Fiction",
-    "imageLink": "images/great-expectations.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
-    "pages": 194,
-    "title": "Great Expectations",
-    "year": 1861
-  },
-  {
-    "author": "Denis Diderot",
-    "country": "France",
-    "genre": "Philosophical fiction",
-    "imageLink": "images/jacques-the-fatalist.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n",
-    "pages": 596,
-    "title": "Jacques the Fatalist",
-    "year": 1796
-  },
-  {
-    "author": "Alfred Döblin",
-    "country": "Germany",
-    "genre": " Fiction",
-    "imageLink": "images/berlin-alexanderplatz.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n",
-    "pages": 600,
-    "title": "Berlin Alexanderplatz",
-    "year": 1929
-  },
-  {
-    "author": "Charles Dickens",
-    "country": "United Kingdom",
-    "imageLink": "images/great-expectations.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
-    "pages": 194,
-    "title": "Great Expectations",
-    "year": 1861
-  },
-  {
-    "author": "Fyodor Dostoevsky",
-    "country": "Russia",
-    "genre": "Crime Fiction",
-    "imageLink": "images/crime-and-punishment.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment\n",
-    "pages": 551,
-    "title": "Crime and Punishment",
-    "year": 1866
-  },
-  {
-    "author": "Fyodor Dostoevsky",
-    "country": "Russia",
-    "genre": "Novel",
-    "imageLink": "images/the-idiot.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
-    "pages": 656,
-    "title": "The Idiot",
-    "year": 1869
-  },
-  {
-    "author": "Fyodor Dostoevsky",
-    "country": "Russia",
-    "genre": " Psychological Fiction",
-    "imageLink": "images/the-possessed.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
-    "pages": 768,
-    "title": "The Possessed",
-    "year": 1872
-  },
-  {
-    "author": "Fyodor Dostoevsky",
-    "country": "Russia",
-    "genre": "Suspense",
-    "imageLink": "images/the-brothers-karamazov.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
-    "pages": 824,
-    "title": "The Brothers Karamazov",
-    "year": 1880
-  },
-  {
-    "author": "George Eliot",
-    "country": "United Kingdom",
+    "year": 1958,
+    "author": "Chinua Achebe",
     "genre": "Historical Fiction",
-    "imageLink": "images/middlemarch.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Middlemarch\n",
+    "title": "Things Fall Apart"
+  },
+  {
+    "pages": 784,
+    "year": 1836,
+    "author": "Hans Christian Andersen",
+    "genre": "Folklore",
+    "title": "Fairy tales"
+  },
+  {
+    "pages": 928,
+    "year": 1315,
+    "author": "Dante Alighieri",
+    "genre": "Epic poetry",
+    "title": "The Divine Comedy"
+  },
+  {
+    "pages": 226,
+    "year": 1813,
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "title": "Pride and Prejudice"
+  },
+  {
+    "pages": 1024,
+    "year": 1351,
+    "author": "Giovanni Boccaccio",
+    "genre": "Romance",
+    "title": "The Decameron"
+  },
+  {
+    "pages": 224,
+    "year": 1965,
+    "author": "Jorge Luis Borges",
+    "genre": "Fantasy",
+    "title": "Ficciones"
+  },
+  {
+    "pages": 342,
+    "year": 1847,
+    "author": "Emily Bront",
+    "genre": "Romance",
+    "title": "Wuthering Heights"
+  },
+  {
+    "pages": 185,
+    "year": 1942,
+    "author": "Albert Camus",
+    "genre": "Crime Fiction",
+    "title": "The Stranger"
+  },
+  {
+    "pages": 505,
+    "year": 1932,
+    "author": "Louis-Ferdinand Céline",
+    "genre": "Fiction",
+    "title": "Journey to the End of the Night"
+  },
+  {
+    "pages": 1056,
+    "year": 1610,
+    "author": "Miguel de Cervantes",
+    "genre": "Satire",
+    "title": "Don Quijote De La Mancha"
+  },
+  {
+    "pages": 544,
+    "year": 1450,
+    "author": "Geoffrey Chaucer",
+    "genre": " Fiction",
+    "title": "The Canterbury Tales"
+  },
+  {
+    "pages": 320,
+    "year": 1904,
+    "author": "Joseph Conrad",
+    "genre": "Political Fiction",
+    "title": "Nostromo"
+  },
+  {
+    "pages": 194,
+    "year": 1861,
+    "author": "Charles Dickens",
+    "genre": "Gothic Fiction",
+    "title": "Great Expectations"
+  },
+  {
+    "pages": 596,
+    "year": 1796,
+    "author": "Denis Diderot",
+    "genre": "Philosophical fiction",
+    "title": "Jacques the Fatalist"
+  },
+  {
+    "pages": 600,
+    "year": 1929,
+    "author": "Alfred Döblin",
+    "genre": " Fiction",
+    "title": "Berlin Alexanderplatz"
+  },
+  {
+    "pages": 194,
+    "year": 1861,
+    "author": "Charles Dickens",
+    "title": "Great Expectations"
+  },
+  {
+    "pages": 551,
+    "year": 1866,
+    "author": "Fyodor Dostoevsky",
+    "genre": "Crime Fiction",
+    "title": "Crime and Punishment"
+  },
+  {
+    "pages": 656,
+    "year": 1869,
+    "author": "Fyodor Dostoevsky",
+    "genre": "Novel",
+    "title": "The Idiot"
+  },
+  {
+    "pages": 768,
+    "year": 1872,
+    "author": "Fyodor Dostoevsky",
+    "genre": " Psychological Fiction",
+    "title": "The Possessed"
+  },
+  {
+    "pages": 824,
+    "year": 1880,
+    "author": "Fyodor Dostoevsky",
+    "genre": "Suspense",
+    "title": "The Brothers Karamazov"
+  },
+  {
     "pages": 800,
-    "title": "Middlemarch",
-    "year": 1871
+    "year": 1871,
+    "author": "George Eliot",
+    "genre": "Historical Fiction",
+    "title": "Middlemarch"
   },
   {
-    "author": "Ralph Ellison",
-    "country": "United States",
-    "genre": "Horror fiction",
-    "imageLink": "images/invisible-man.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Invisible_Man\n",
     "pages": 581,
-    "title": "Invisible Man",
-    "year": 1952
+    "year": 1952,
+    "author": "Ralph Ellison",
+    "genre": "Horror fiction",
+    "title": "Invisible Man"
   },
   {
-    "author": "Euripides",
-    "country": "Greece",
-    "genre": "Tragedy",
-    "imageLink": "images/medea.jpg",
-    "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
     "pages": 104,
-    "title": "Medea",
-    "year": -431
+    "year": -431,
+    "author": "Euripides",
+    "genre": "Tragedy",
+    "title": "Medea"
   },
   {
-    "author": "William Faulkner",
-    "country": "United States",
-    "genre": "Gothic fiction",
-    "imageLink": "images/the-sound-and-the-fury.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
     "pages": 326,
-    "title": "The Sound and the Fury",
-    "year": 1929
+    "year": 1929,
+    "author": "William Faulkner",
+    "genre": "Gothic fiction",
+    "title": "The Sound and the Fury"
   },
   {
-    "author": "Gustave Flaubert",
-    "country": "France",
-    "genre": "Modern literature",
-    "imageLink": "images/madame-bovary.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
     "pages": 528,
-    "title": "Madame Bovary",
-    "year": 1857
-  },
-  {
+    "year": 1857,
     "author": "Gustave Flaubert",
-    "country": "France",
-    "genre": "realism",
-    "imageLink": "images/l-education-sentimentale.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
+    "genre": "Modern literature",
+    "title": "Madame Bovary"
+  },
+  {
     "pages": 606,
-    "title": "Sentimental Education",
-    "year": 1869
+    "year": 1869,
+    "author": "Gustave Flaubert",
+    "genre": "realism",
+    "title": "Sentimental Education"
   },
   {
-    "author": "Johann Wolfgang von Goethe",
-    "country": "Saxe-Weimar",
-    "genre": "tragedy",
-    "imageLink": "images/faust.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
     "pages": 158,
-    "title": "Faust",
-    "year": 1832
+    "year": 1832,
+    "author": "Johann Wolfgang von Goethe",
+    "genre": "tragedy",
+    "title": "Faust"
   },
   {
-    "author": "Nikolai Gogol",
-    "country": "Russia",
-    "genre": "Fiction",
-    "imageLink": "images/dead-souls.jpg",
-    "language": "Russian",
-    "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
     "pages": 432,
-    "title": "Dead Souls",
-    "year": 1842
-  },
-  {
-    "author": "Knut Hamsun",
-    "country": "Norway",
-    "genre": "Memoir",
-    "imageLink": "images/hunger.jpg",
-    "language": "Norwegian",
-    "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
-    "pages": 176,
-    "title": "Hunger",
-    "year": 1890
-  },
-  {
-    "author": "Ernest Hemingway",
-    "country": "United States",
-    "genre": "Novel",
-    "imageLink": "images/the-old-man-and-the-sea.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
-    "pages": 128,
-    "title": "The Old Man and the Sea",
-    "year": 1952
-  },
-  {
-    "author": "Homer",
-    "country": "Greece",
-    "genre": "Epic poetry",
-    "imageLink": "images/the-iliad-of-homer.jpg",
-    "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Iliad\n",
-    "pages": 608,
-    "title": "Iliad",
-    "year": -735
-  },
-  {
-    "author": "Homer",
-    "country": "Greece",
-    "genre": "Epic poetry",
-    "imageLink": "images/the-odyssey-of-homer.jpg",
-    "language": "Greek",
-    "link": "https://en.wikipedia.org/wiki/Odyssey\n",
-    "pages": 374,
-    "title": "Odyssey",
-    "year": -800
-  },
-  {
-    "author": "Henrik Ibsen",
-    "country": "Norway",
-    "genre": "Modern tragedy",
-    "imageLink": "images/a-Dolls-house.jpg",
-    "language": "Norwegian",
-    "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
-    "pages": 68,
-    "title": "A Doll House",
-    "year": 1879
-  },
-  {
-    "author": "James Joyce",
-    "country": "Irish Free State",
+    "year": 1842,
+    "author": "Nikolai Gogol",
     "genre": "Fiction",
-    "imageLink": "images/ulysses.jpg",
-    "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)\n",
-    "pages": 228,
-    "title": "Ulysses",
-    "year": 1922
+    "title": "Dead Souls"
   },
   {
-    "author": "Franz Kafka",
-    "country": "Czechoslovakia",
+    "pages": 176,
+    "year": 1890,
+    "author": "Knut Hamsun",
+    "genre": "Memoir",
+    "title": "Hunger"
+  },
+  {
+    "pages": 128,
+    "year": 1952,
+    "author": "Ernest Hemingway",
     "genre": "Novel",
-    "imageLink": "images/the-trial.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Trial\n",
-    "pages": 160,
-    "title": "The Trial",
-    "year": 1925
+    "title": "The Old Man and the Sea"
   },
   {
+    "pages": 608,
+    "year": -735,
+    "author": "Homer",
+    "genre": "Epic poetry",
+    "title": "Iliad"
+  },
+  {
+    "pages": 374,
+    "year": -800,
+    "author": "Homer",
+    "genre": "Epic poetry",
+    "title": "Odyssey"
+  },
+  {
+    "pages": 68,
+    "year": 1879,
+    "author": "Henrik Ibsen",
+    "genre": "Modern tragedy",
+    "title": "A Doll House"
+  },
+  {
+    "pages": 228,
+    "year": 1922,
+    "author": "James Joyce",
+    "genre": "Fiction",
+    "title": "Ulysses"
+  },
+  {
+    "pages": 160,
+    "year": 1925,
     "author": "Franz Kafka",
-    "country": "Czechoslovakia",
-    "genre": "Comedy",
-    "imageLink": "images/the-castle.jpg",
-    "language": "German",
-    "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)\n",
+    "genre": "Novel",
+    "title": "The Trial"
+  },
+  {
     "pages": 352,
-    "title": "The Castle",
-    "year": 1926
+    "year": 1926,
+    "author": "Franz Kafka",
+    "genre": "Comedy",
+    "title": "The Castle"
+  },
+  {
+    "pages": 196,
+    "year": 2016,
+    "author": "Collen Hoover",
+    "genre": "Romance",
+    "title": "It Ends with Us"
   }
-]{"author":"Collen Hover","country":null,"genre":"Romance, Fiction","imageLink":null,"language":null,"link":null,"pages":376,"title":"It Ends with Us","year":2016}
+]
