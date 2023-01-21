@@ -1,8 +1,8 @@
 package com.company;
 
+import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonArrayFormatVisitor;
 import org.apache.commons.io.FileUtils;
 
 import java.io.*;
@@ -10,8 +10,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Scanner;
 
-import com.company.Main.*;
 import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import javax.swing.text.html.parser.Parser;
 
 import static com.company.Main.*;
 
@@ -19,10 +22,11 @@ public class Helper {
 
     Scanner sc = new Scanner(System.in);
     ObjectMapper mapper = new ObjectMapper();
+    List<Book> book;
 
     public List<Book> getList() throws Exception {
         String jsonInput = FileUtils.readFileToString(new File("res\\books.json"), StandardCharsets.UTF_8);
-        List<Book> book = mapper.readValue(jsonInput, new TypeReference<List<Book>>() {
+        book = mapper.readValue(jsonInput, new TypeReference<List<Book>>() {
         });
 
         return book;
@@ -33,17 +37,19 @@ public class Helper {
 
         Book newBook = new Book();
         newBook = getObjectData(newBook);
-        JSONArray list = new JSONArray();
+
         bookList.add(newBook);
         try {
-            FileWriter fileWriter = new FileWriter("res\\books.json",true);         // writing back to the file
+            FileWriter fileWriter = new FileWriter("res\\books.json");         // writing back to the file
 
-            String jsonStr = mapper.writeValueAsString(newBook);
-            System.out.println(jsonStr);
+            JSONArray jsonArray = new JSONArray(book);
+            JSONObject jsonObject = new JSONObject(newBook);
 
-            fileWriter.write(jsonStr);
+//            jsonArray.put(jsonObject);
+            fileWriter.write(jsonArray.toString());
+
             fileWriter.flush();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

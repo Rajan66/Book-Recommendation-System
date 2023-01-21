@@ -1,15 +1,12 @@
 package com.company;
+
 // import com.fasterxml.jackson.databind.ObjectMapper; // version 2.11.1
 // import com.fasterxml.jackson.annotation.JsonProperty; // version 2.11.1
 /* ObjectMapper om = new ObjectMapper();
 Root[] root = om.readValue(myJsonString, Root[].class); */
-public class Book{
+public class Book {
     private String author;
-    private String country;
     private String genre;
-    private String imageLink;
-    private String language;
-    private String link;
     private int pages;
     private String title;
     private int year;
@@ -30,13 +27,6 @@ public class Book{
         this.genre = genre;
     }
 
-    public String getLanguage() {
-        return language;
-    }
-
-    public void setLanguage(String language) {
-        this.language = language;
-    }
 
     public int getPages() {
         return pages;
@@ -62,28 +52,6 @@ public class Book{
         this.year = year;
     }
 
-    public String getCountry() {
-        return country;
-    }
 
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public String getImageLink() {
-        return imageLink;
-    }
-
-    public void setImageLink(String imageLink) {
-        this.imageLink = imageLink;
-    }
-
-    public String getLink() {
-        return link;
-    }
-
-    public void setLink(String link) {
-        this.link = link;
-    }
 }
 
