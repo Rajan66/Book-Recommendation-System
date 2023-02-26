@@ -13,12 +13,19 @@ public class Main {
     static Helper obj = new Helper();
     static Sort sorter = new Sort();
     static Search searcher = new Search();
+    static Scanner sc = new Scanner(System.in);
+    static MenuFrame menuFrame;
 
     public static void main(String[] args) throws Exception {
 
 
         bookList = (ArrayList<Book>) obj.getList();
-        obj.insert();
-//        obj.display();
+        menuFrame = new MenuFrame();
+        menuFrame.run();
+//        obj.insert();
+        sorter.sort(bookList);
+        obj.display();
+//        searcher.run();
+
     }
 }
