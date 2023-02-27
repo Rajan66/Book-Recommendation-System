@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 
@@ -18,14 +19,18 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-
         bookList = (ArrayList<Book>) obj.getList();
-        menuFrame = new MenuFrame();
-        menuFrame.run();
-//        obj.insert();
-        sorter.sort(bookList);
-        obj.display();
-//        searcher.run();
 
+        Random random = new Random();
+        int index = random.nextInt(bookList.size());
+        System.out.println(index);
+
+//        menuFrame = new MenuFrame();
+//        menuFrame.run();
+//        obj.insert();
+//        sorter.sort(bookList);
+//        obj.display();
+//        searcher.run();
+//        searcher.delete();
     }
 }
