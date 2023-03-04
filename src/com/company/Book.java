@@ -48,6 +48,8 @@ public class Book {
         this.year = year;
     }
 
-
+    public Object[] toObjectArray() {
+        return new Object[]{getAuthor(), getTitle(), getGenre(), getPages(), getYear()};
+    }
 }
 

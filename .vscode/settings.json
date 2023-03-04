@@ -1,0 +1,14 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Radhika\\Downloads\\Compressed\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0-test-sources.jar",
+        "c:\\Users\\Radhika\\Downloads\\Compressed\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0.jar",
+        "c:\\Users\\Radhika\\Downloads\\Compressed\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0-javadoc.jar",
+        "c:\\Users\\Radhika\\Downloads\\Compressed\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0-sources.jar",
+        "c:\\Users\\Radhika\\Downloads\\Compressed\\commons-io-2.11.0-bin\\commons-io-2.11.0\\commons-io-2.11.0-tests.jar",
+        "c:\\Users\\Radhika\\Downloads\\Compressed\\java-json.jar\\java-json.jar",
+        "c:\\Users\\Radhika\\Downloads\\Compressed\\jar_files\\jackson-annotations-2.14.1.jar",
+        "c:\\Users\\Radhika\\Downloads\\Compressed\\jar_files\\jackson-core-2.14.1.jar",
+        "c:\\Users\\Radhika\\Downloads\\Compressed\\jar_files\\jackson-databind-2.14.1.jar"
+    ]
+}

@@ -37,7 +37,7 @@ public class Sort {
                 j--;
             }
         }
-        //call quickSort recursively
+
         if (lowerIndex < j) {
             quickSort(lowerIndex, j);
         }

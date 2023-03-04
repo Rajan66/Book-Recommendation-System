@@ -4,9 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
-
-import com.company.AddBook;
 
 public class MenuFrame extends JFrame {
     public MenuFrame() throws Exception {
@@ -14,13 +11,10 @@ public class MenuFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JMenuBar mb = new JMenuBar();
-        // create menu
-        JMenu mnuBook = new JMenu("Dictionary");
+        JMenu mnuBook = new JMenu("Book Recommendation System");
         mb.add(mnuBook);
 
-        // options in Dictionary Menu
         JMenuItem option = new JMenuItem("Add book..");
-//        option.setIcon( getImage("add.gif"));
         option.setAccelerator(KeyStroke.getKeyStroke("F5"));
         mnuBook.add(option);
         option.addActionListener(new ActionListener() {
@@ -31,60 +25,55 @@ public class MenuFrame extends JFrame {
             }
         });
 
-//        // options in Dictionary Menu
-//        option = new JMenuItem("Delete Book...");
-////        option.setIcon( getImage("delete.gif"));
-//        option.setAccelerator(KeyStroke.getKeyStroke("F6"));
-//        mnuBook.add(option);
-//        option.addActionListener(new ActionListener() {
-//
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                deleteBook();
-//            }
-//        });
-//
-//        mnuBook.addSeparator();
-//
-//        // options in Dictionary Menu
-//        option = new JMenuItem("Search Book...");
-////        option.setIcon( getImage("search.gif"));
-//        option.setAccelerator(KeyStroke.getKeyStroke("F7"));
-//        mnuBook.add(option);
-//        option.addActionListener(new ActionListener() {
-//
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                searchBook();
-//            }
-//        });
-//
-//
-//        option = new JMenuItem("List Books");
-////        option.setIcon( getImage("list.gif"));
-//        option.setAccelerator(KeyStroke.getKeyStroke("F8"));
-//        mnuBook.add(option);
-//        option.addActionListener(new ActionListener() {
-//
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                listBooks();
-//            }
-//        });
-//
-//        mnuBook.addSeparator();
-//
-//        option = new JMenuItem("Recommend Book");
-////        option.setIcon( getImage("list.gif"));
-//        option.setAccelerator(KeyStroke.getKeyStroke("F9"));
-//        mnuBook.add(option);
-//        option.addActionListener(new ActionListener() {
-//
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                recommendBook();
-//            }
-//        });
+
+        option = new JMenuItem("Delete Book...");
+        option.setAccelerator(KeyStroke.getKeyStroke("F6"));
+        mnuBook.add(option);
+        option.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                deleteBook();
+            }
+        });
+
+        mnuBook.addSeparator();
+
+        option = new JMenuItem("Search Book...");
+
+        option.setAccelerator(KeyStroke.getKeyStroke("F7"));
+        mnuBook.add(option);
+        option.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                searchBook();
+            }
+        });
+
+        option = new JMenuItem("Recommend Book");
+        option.setAccelerator(KeyStroke.getKeyStroke("F8"));
+        mnuBook.add(option);
+        option.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                recommendBook();
+            }
+        });
+
+        mnuBook.addSeparator();
+
+        option = new JMenuItem("View Books");
+        option.setAccelerator(KeyStroke.getKeyStroke("F9"));
+        mnuBook.add(option);
+        option.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                listBooks();
+            }
+        });
 
         addToolbar();
         setJMenuBar(mb);
@@ -106,38 +95,39 @@ public class MenuFrame extends JFrame {
         w.setVisible(true);
     }
 
-//    public void deleteBook() {
-//        DeleteWord w = new DeleteWord();
-//        centerToParent(MenuFrame.this, w);
-//        w.setVisible(true);
-//    }
-//
-//    public void searchBook() {
-//        SearchWord w = new SearchWord();
-//        centerToParent(MenuFrame.this, w);
-//        w.setVisible(true);
-//    }
-//
-//    public void listBooks() {
-//        ListWords w = new ListWords();
-//        w.setVisible(true);
-//        centerToParent(MenuFrame.this, w);
-//    }
-//
-//    public void recommendBook() {
-//        Recommender w = new Recommender();
-//        w.setVisible(true);
-//        centerToParent(MenuFrame.this, w);
-//    }
+    public void deleteBook() {
+        DeleteBook w = new DeleteBook();
+        centerToParent(MenuFrame.this, w);
+        w.setVisible(true);
+    }
+
+    public void searchBook() {
+        SearchBook w = new SearchBook();
+        centerToParent(MenuFrame.this, w);
+        w.setVisible(true);
+    }
+
+    public void listBooks() {
+        ListBooks w = new ListBooks();
+        w.setVisible(true);
+        centerToParent(MenuFrame.this, w);
+    }
+
+    public void recommendBook() {
+        Recommender w = new Recommender();
+        w.setVisible(true);
+        centerToParent(MenuFrame.this, w);
+    }
 
 
     public void addToolbar() {
         JToolBar tb = new JToolBar();
-//        JButton b = new JButton( getImage("add.gif"));
+        tb.setBounds(20, 20, 500, 50);
+
         JButton b = new JButton("Add Book");
         b.setPreferredSize(new Dimension(32, 32));
         tb.add(b);
-        b.setToolTipText("Add Book");
+        b.setToolTipText("Add a book");
         b.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -145,68 +135,58 @@ public class MenuFrame extends JFrame {
             }
 
         });
+
+        b = new JButton("Delete Book");
+        b.setPreferredSize(new Dimension(32, 32));
+        tb.add(b);
+        b.setToolTipText("Delete a book");
+        b.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                deleteBook();
+            }
+
+        });
+
+        b = new JButton("Search Book");
+        b.setPreferredSize(new Dimension(32, 32));
+        tb.add(b);
+        b.setToolTipText("Search a book");
+        b.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                searchBook();
+            }
+
+        });
+
+        b = new JButton("Recommend Book");
+        b.setPreferredSize(new Dimension(32, 32));
+        tb.add(b);
+        b.setToolTipText("Suggest a book");
+        b.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                recommendBook();
+            }
+
+        });
+
+        b = new JButton("View Books");
+        b.setPreferredSize(new Dimension(32, 32));
+        tb.add(b);
+        b.setToolTipText("View all Books");
+        b.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                listBooks();
+            }
+
+        });
+        getContentPane().add(tb, BorderLayout.NORTH);
     }
 
-    //
-////        b = new JButton( getImage("delete.gif"));
-//        b = new JButton("Delete Book");
-//        b.setPreferredSize(new Dimension(32, 32));
-//        tb.add(b);
-//        b.setToolTipText("Delete Word");
-//        b.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                deleteBook();
-//            }
-//
-//        });
-//
-////        b = new JButton( getImage("search.gif"));
-//        b = new JButton("Search Book");
-//        b.setPreferredSize(new Dimension(32, 32));
-//        tb.add(b);
-//        b.setToolTipText("Search Word");
-//        b.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                searchBook();
-//            }
-//
-//        });
-//
-//
-////        b = new JButton( getImage("list.gif"));\
-//        b = new JButton("List Book");
-//        tb.add(b);
-//        b.setToolTipText("List Words");
-//        b.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                listBooks();
-//            }
-//
-//        });
-//
-//        tb.addSeparator();
-//
-////        b = new JButton( getImage("save.gif"));
-//        b = new JButton("Recommend Book");
-//        tb.add(b);
-//        b.setToolTipText("Recommend Book");
-//        b.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                recommendBook();
-//            }
-//
-//        });
-//
-//
-//        getContentPane().add(tb, BorderLayout.NORTH);
-//    }
-
-
-    public void run() throws Exception{
+    public void run() throws Exception {
         MenuFrame f = new MenuFrame();
         f.setVisible(true);
         f.setExtendedState(JFrame.MAXIMIZED_BOTH);

@@ -1,36 +1,20 @@
 package com.company;
 
 import java.util.ArrayList;
-import java.util.Random;
-import java.util.Scanner;
 
-
-//TODO insertion and deletion feature
-// TODO display the book count
 public class Main {
 
     static ArrayList<Book> bookList;
     static int length;
-    static Helper obj = new Helper();
-    static Sort sorter = new Sort();
-    static Search searcher = new Search();
-    static Scanner sc = new Scanner(System.in);
+    static Helper helperObj = new Helper();
+    static Sort sortObj = new Sort();
+    static Search searchObj = new Search();
     static MenuFrame menuFrame;
 
     public static void main(String[] args) throws Exception {
+        bookList = (ArrayList<Book>) helperObj.getList();
 
-        bookList = (ArrayList<Book>) obj.getList();
-
-        Random random = new Random();
-        int index = random.nextInt(bookList.size());
-        System.out.println(index);
-
-//        menuFrame = new MenuFrame();
-//        menuFrame.run();
-//        obj.insert();
-//        sorter.sort(bookList);
-//        obj.display();
-//        searcher.run();
-//        searcher.delete();
+        menuFrame = new MenuFrame();
+        menuFrame.run();
     }
 }

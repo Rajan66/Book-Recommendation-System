@@ -13,6 +13,7 @@ import javax.swing.JTextField;
 
 import static com.company.Main.bookList;
 import static com.company.Helper.book;
+import static com.company.Main.sortObj;
 
 public class AddBook extends JFrame {
 
@@ -26,7 +27,7 @@ public class AddBook extends JFrame {
 
     public AddBook() {
         super("Add Word");
-        setSize(600, 400);
+        setSize(300, 300);
 
         tfAuthor = new JTextField(30);
         tfTitle = new JTextField(30);
@@ -54,7 +55,6 @@ public class AddBook extends JFrame {
 
                  bookList.add(newBook);
                  try {
-                     // writing back to the file
                      FileWriter fileWriter = new FileWriter("res\\books.json");
 
                      JSONArray jsonArray = new JSONArray(book);
@@ -62,6 +62,7 @@ public class AddBook extends JFrame {
                      fileWriter.write(jsonArray.toString());
 
                      fileWriter.flush();
+                     sortObj.sort(bookList);
                  } catch (Exception ex) {
                      ex.printStackTrace();
                  }
@@ -89,24 +90,24 @@ public class AddBook extends JFrame {
         JLabel lDate = new JLabel("Published Date: ");
         JLabel blank = new JLabel();
 
-        lAuthor.setBounds(120, 20, 60, 30);
-        tfAuthor.setBounds(250, 20, 100, 30);
+        lAuthor.setBounds(50, 20, 60, 30);
+        tfAuthor.setBounds(150, 20, 100, 30);
 
-        lTitle.setBounds(120, 60, 60, 30);
-        tfTitle.setBounds(250, 60, 100, 30);
+        lTitle.setBounds(50, 60, 60, 30);
+        tfTitle.setBounds(150, 60, 100, 30);
 
-        lGenre.setBounds(120, 100, 60, 30);
-        tfGenre.setBounds(250, 100, 100, 30);
+        lGenre.setBounds(50, 100, 60, 30);
+        tfGenre.setBounds(150, 100, 100, 30);
 
-        lPages.setBounds(120, 140, 60, 30);
-        tfPages.setBounds(250, 140, 100, 30);
+        lPages.setBounds(50, 140, 60, 30);
+        tfPages.setBounds(150, 140, 100, 30);
 
-        lDate.setBounds(120, 180, 200, 30);
-        tfDate.setBounds(250, 180, 100, 30);
+        lDate.setBounds(50, 180, 200, 30);
+        tfDate.setBounds(150, 180, 100, 30);
 
-        blank.setBounds(120,200,100,30);
+        blank.setBounds(50,200,100,30);
 
-        btnAdd.setBounds(180, 240, 100, 30);
+        btnAdd.setBounds(80, 220, 100, 30);
 
 
         add(tfAuthor);
@@ -122,11 +123,6 @@ public class AddBook extends JFrame {
         add(lPages);
         add(lDate);
         add(blank);
-    }
-
-    public void insert() {
-
-
     }
 }
 

@@ -10,36 +10,53 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Downloads/Compressed/jackson" />
+          <root url="jar://$USER_HOME$/Downloads/Compressed/java-json.jar/java-json.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/java-json.jar/java-json.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/jar_files/jackson-annotations-2.14.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$USER_HOME$/Downloads/Compressed/jackson" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0/docs" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0" />
-        </SOURCES>
-        <jarDirectory url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0" recursive="false" />
-        <jarDirectory url="file://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Compressed/java-json.jar/java-json.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/Compressed/jar_files/jackson-core-2.14.1.jar!/" />
         </CLASSES>
         <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/jar_files/jackson-databind-2.14.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-tests.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-javadoc.jar!/" />
+        </JAVADOC>
         <SOURCES>
-          <root url="jar://$USER_HOME$/Downloads/Compressed/java-json.jar/java-json.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/Compressed/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-test-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
