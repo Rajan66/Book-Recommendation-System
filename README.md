@@ -6,3 +6,4 @@ Algorithms used for this project are:
   1. Binary Search
   2. Qucik Sort
 
+I have used external libraries to work with json file and Java Swing to develop the interface.
